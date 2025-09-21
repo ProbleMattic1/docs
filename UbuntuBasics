@@ -96,5 +96,40 @@ Code
 
 ALTER USER postgres PASSWORD 'killy';
 
+Code
+
+    sudo -i -u postgres
+
+Access the PostgreSQL prompt (psql).
+Code
+
+    psql
+
+Create the new database.
+Replace your_database_name with the desired name for your database.
+Code
+
+    CREATE DATABASE your_database_name;
+
+Verify the database creation (optional).
+This command lists all databases on the server.
+Code
+
+    \l
+
+Exit the PostgreSQL prompt.
+Code
+
+    \q
+
+Return to your regular user account.
+Code
+
+    exit
+
+Alternatively, you can use the createdb command-line utility directly from your regular user account (assuming you have the necessary permissions, or run with sudo if needed and configured).
+Code
+
+sudo -u postgres createdb your_database_name
 
 https://github.com/n8n-io/self-hosted-ai-starter-kit
