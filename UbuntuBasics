@@ -78,7 +78,23 @@ sudo systemctl status apache2
 
  ServerName localhost
 
+sudo apt install postgresql postgresql-contrib
 
+The PostgreSQL server typically starts automatically after installation. 
+3. Verify Installation (Optional) To check if PostgreSQL is running, you can use the following command: 
+Code
+
+sudo systemctl status postgresql
+
+4. Connect to the PostgreSQL Server You can connect to the PostgreSQL command-line client (psql) as the postgres superuser using this command: 
+Code
+
+sudo -u postgres psql
+
+5. Set a Password for the postgres User Once inside the psql shell, set a strong password for the default postgres user to improve security: 
+Code
+
+ALTER USER postgres PASSWORD 'killy';
 
 
 https://github.com/n8n-io/self-hosted-ai-starter-kit
