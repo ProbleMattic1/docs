@@ -2,3 +2,24 @@ Software to add
 
 Multipass - Ubuntu virtual deploys
 omakub - web dev env
+
+Desktop: Ubuntu (GNU/Linux, Debian) + included tools/utilities
+Internet / Web: Firefox Browser, Tor Browser, Evolution EMail, Pidgin Instant Messenger / IRC
+VOIP: Ekiga Internet Phone
+Office Productivity Suite: LibreOffice
+Graphics "Suite": GIMP Image Processing, Inkscape Vector Graphics, Scribus Desktop Publishing, K3d CAD
+Audio/Video: VLC Media Player, Audacity Audio Editor, OpenShot Video Editor
+Text Editor: GNU Emacs, Bluefish Editor
+Password Manager: KeePass
+Web Content Management: Drupal
+Customer Relationship Management: CiviCRM
+Event Management: CiviCRM
+Web Conferencing: BigBlueButton
+Wiki: XWiki
+Groupware: In-Cubator
+Code Repository: GitHub, Subversion
+Elections / Polling: Helios
+Listserv / Mailing lists: Mailman, Postfix
+Issue Reporting/Tracking: Redmine
+Systems Monitoring: Munin
+Web, Mail Application Hosting: Some combination of Debian, CentOS, Apache, Varnish, SSL, Postfix (MTA), Spamassassin, Amavisd/ClamAV, Puppet, PHP Desktop: Ubuntu (GNU/Linux, Debian) + included tools/utilities
